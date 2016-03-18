@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.abercap</groupId>
 	<artifactId>mediainfo-java-api</artifactId>
-	<version>1.0.0.BUILD-SNAPSHOT</version>
+	<version>1.0.0.RELEASE</version>
 	<name>MediaInfo Java API</name>
 	<description>A Java Wrapper for MediaInfo</description>
 	<dependencies>
