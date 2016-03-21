@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.abercap</groupId>
 	<artifactId>mediainfo-java-api</artifactId>
-	<version>1.0.0.RELEASE</version>
+	<version>1.0.1.BUILD-SNAPSHOT</version>
 	<name>MediaInfo Java API</name>
 	<description>A Java Wrapper for MediaInfo</description>
 	<dependencies>
@@ -14,4 +14,16 @@
 			<version>4.1.0</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>aberdeen-releases</id>
+			<name>Aberdeen Releases</name>
+			<url>https://aberdeen.artifactoryonline.com/aberdeen/libs-release-local/</url>
+		</repository>
+		<snapshotRepository>
+			<id>aberdeen-snapshots</id>
+			<name>Aberdeen Snapshots</name>
+			<url>https://aberdeen.artifactoryonline.com/aberdeen/libs-snapshot-local/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
